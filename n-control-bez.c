@@ -14,7 +14,7 @@ int fact(int n){
 	int i=n,factorial=1;
 	if(i==0)
 	return(1);
-	do	{
+	do{
 		factorial=factorial*i;
 		i--;
 	}while(i>=1);
