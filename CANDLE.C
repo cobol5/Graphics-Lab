@@ -49,9 +49,10 @@ void draw(){
 
 	rectangle(midx-20, height, midx+20, getmaxy());
 	rectangle(midx-1, height-5, midx+1, height);
-
-	bezier(x1, y1);
-	bezier(x2, y2);
+	if(height<(getmaxy()-9)){
+		bezier(x1, y1);
+		bezier(x2, y2);
+	}
 }
 
 void main(){
